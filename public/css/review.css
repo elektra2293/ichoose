@@ -1,0 +1,80 @@
+.review li{
+	display: block;
+margin: 5px;
+border: solid 2px #6C96D0;
+margin-left: 0px;
+background-color: #C7D1EF;
+height:auto;
+	}
+.review li:nth-child(even)
+	{
+		background-color: #E7EAEF;
+		}
+		
+.comment li{
+	display: block;
+margin: 5px;
+border: solid 2px #6C96D0;
+margin-left: 0px;
+background-color: #C7D1EF;
+height:auto;
+	}
+.comment li:nth-child(even)
+	{
+		background-color: #E7EAEF;
+	}			
+.comment{
+	margin-left:70px;
+	width: 600px;}	
+.name_review
+{
+	font-size: 18px;
+	font-weight:bold;
+	border-bottom: dotted 2px #6C96D0;
+	padding: 5px;
+	padding-left: 100px;
+	}
+.photo
+{margin: 10px;
+margin-top: 5px;
+float:left;}
+
+.reviev_info{
+	margin:10px;
+	
+	}
+	.review_text
+	{
+		overflow: hidden;
+    text-overflow:ellipsis;
+		}
+#avatar a img{
+	display:block;
+	border:none !important;
+	margin-left:10px;}
+
+.review_text p
+{
+	display:block;
+	font-weight:300 ;
+	text-transform:lowercase;
+    word-wrap:break-word;
+    max-height:35px; 
+	}
+
+ul{
+   list-style-type:none;}
+.photo_rev	li{
+			display:block;
+			margin:5px;
+			border:solid 2px #6C96D0;
+			margin-left:0px;
+		}
+		.photo_rev{
+		
+			float:left;}
+.full-review
+{
+	float:right;
+	font-weight:bold;
+	margin-right:20px;}

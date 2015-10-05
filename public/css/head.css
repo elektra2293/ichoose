@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url(../images/Background.jpg)  fixed;
+	}
+.clear{
+		clear:both
+		}
+
+#wraper{
+		margin-top: 20px;
+		margin-left:80px;
+		width:1179px;
+		padding:5px;
+
+		background:linear-gradient(to top,#5BACD8 0%, #eee 100%);
+		-webkit-border-radius: 20px;
+		 -moz-border-radius:20px;
+		}
+		a{
+			text-decoration: none; /* Убираем подчеркивание у ссылок */
+			color:#006;
+		}
+#ichoose
+{margin:-5px;
+-webkit-border-radius:20px  20px 0 0;
+width:1149px;
+padding-right:40px;
+padding-bottom: 20px;
+border-bottom:solid 2px #6C96D0;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#6FB2D7), to(#eee));
+background-repeat:no-repeat;
+background-color: #D0E5FF;
+float:left;
+}
+
+#logo
+{ width: 340px;
+height: 100px;
+background-image:url(../images/Ichoose.png);
+float:left;
+	}
+.enter{
+	float:left;
+			}
+.block1 input[type='submit']{
+	background:none;
+	border:none;
+	outline:none;
+	cursor:pointer;
+		font-size:26px;
+	font-style:italic;
+		color: #006;
+		font-weight:800;
+		font-family:inherit;
+	}
+	
+
+.block2 input[type='submit']
+{	position:relative;
+	background:url(../images/ok.png) 0 0 no-repeat;
+	border: none;
+	outline:none;
+	
+	top:5px;
+	width:25px;
+	height:25px;
+	}
+	
+   .block2{
+	   
+	float:left;
+    border: none; 
+	margin-top:5px; 
+	font-size:24px;
+	font-style:italic;
+	margin-left: 500px;
+
+	/*text-align:center;*/
+	}
+	select{
+		width: 130px;
+		margin-left:10px;
+		animation-delay: 0.2;
+		}
+
+.block1{
+     padding: 5px; 
+    border: solid 2px #2C45E2; 
+    width: 280px; 
+	margin-top:40px; 
+	height: 120px;
+	 background:-webkit-radial-gradient(center, ellipse cover, rgba(114,215,224,1) 5%,rgba(108,150,208,1) 100%);
+	-webkit-border-radius: 20px;
+	font-size:24px;
+	font-style:italic;
+	
+   }  
+   .bad_enter{
+	        padding: 5px; 
+    border: solid 2px #2C45E2; 
+    width: 280px; 
+	margin-top:10px;
+	margin-left: 460px; 
+	margin-bottom:100px;
+	height: 120px;
+	 background:-webkit-radial-gradient(center, ellipse cover, rgba(114,215,224,1) 5%,rgba(108,150,208,1) 100%);
+	-webkit-border-radius: 20px;
+	font-size:24px;
+	font-style:italic;
+	   }
+	   .bad_enter input[type='submit']{
+	background:none;
+	border:none;
+	outline:none;
+	cursor:pointer;
+		font-size:26px;
+	font-style:italic;
+		color: #006;
+		font-weight:800;
+		font-family:inherit;
+	}
+ .private_office{   padding: 5px; 
+    border: solid 2px #2C45E2; 
+    width: 280px; 
+	margin-top:40px; 
+	height: 120px;
+	 background:-webkit-radial-gradient(center, ellipse cover, rgba(114,215,224,1) 5%,rgba(108,150,208,1) 100%);
+	-webkit-border-radius: 20px;
+	text-align:center;
+	font-size:20px;
+	font-style:italic;}
+	
+p{
+		margin-top: 0.3em; /* Отступ сверху */
+   	    margin-bottom: 0.3em; /* Отступ снизу */
+		color: #006;
+		font-weight:800;
+		}
+
+.message{
+		font-size:26px;
+	font-style:italic;
+		color: #006;
+		font-weight:800;
+		text-align:center;
+		margin-top: 200px;
+		
+		}
+#login{
+	float:right!important;
+	margin-right: 15px!important;
+	width: 160px;
+	height: 20px;
+	}
+	
+#parol{
+		float:right!important;
+	margin-right: 15px!important;
+	width:160px;
+	height: 20px;
+	}
+	
+#enter{
+		margin-left: 10px;
+		font-size:26px !important;
+		}
+		#enter a{
+			display:inline-block;
+		    float:left;
+			font-size:26px !important;}
+
+span{
+		margin-left:20px;
+	}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+	#menu {
+margin-left: 540px; /* Отступ слева от вкладок */
+margin-top:50px;
+
+border: solid 3px #2C45E2; 
+background: -webkit-radial-gradient(center, ellipse cover, rgba(114,215,224,1) 5%,rgba(108,150,208,1) 100%);
+-webkit-border-radius: 20px;
+padding: 10px 30px ; 
+}
+
+	#menu_after {
+margin-left: 540px; /* Отступ слева от вкладок */
+margin-top:50px;
+
+border: solid 3px #2C45E2; 
+background: -webkit-radial-gradient(center, ellipse cover, rgba(114,215,224,1) 5%,rgba(108,150,208,1) 100%);
+-webkit-border-radius: 20px;
+padding: 10px 30px ; 
+}
+#menu_after A
+{margin:20px 20px; /* Расстояние между вкладками */
+text-decoration: none; /* Убираем подчеркивание у ссылок */
+	font-size:24px;
+	font-style:italic;
+	color: #006; 
+	font-weight:700;
+}
+
+#menu A {
+margin:20px 30px; /* Расстояние между вкладками */
+text-decoration: none; /* Убираем подчеркивание у ссылок */
+	font-size:24px;
+	font-style:italic;
+	color: #006; 
+	font-weight:700;
+}
+
+	

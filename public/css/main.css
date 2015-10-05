@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#cat {
+padding-left: 300px; /* Отступ слева от вкладок */
+margin-top: 100px;
+}
+ 
+#cat A {
+	display:inline-block;
+margin-right: 5px; /* Расстояние между вкладками */
+text-decoration: none; /* Убираем подчеркивание у ссылок */
+ width: 150px;
+ height: 100px;
+    background: #6C96D0;
+    padding: 10px 30px ; 
+    border: solid 3px #2C45E2; 
+	-webkit-border-radius: 20px;
+	font-size:24px;
+	font-style:italic;
+	color: #FFF; 
+	text-align: right;
+	vertical-align:text-top;
+}

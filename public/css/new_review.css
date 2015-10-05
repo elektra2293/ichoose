@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+#private form {
+	margin-top:0px;
+margin-left: 100px ;
+border:solid 2px #6C96D0;
+width: 500px !important;
+-webkit-border-radius:20px;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#6FB2D7), to(#B6D4E4));
+padding:10px 0px 10px 40px;
+
+	}
+
+#private input[type='submit'] {
+	display:block;
+	float:left;
+	margin-left:40px;
+	margin-top: 10px;
+	border: solid 2px #2C45E2;
+	border-radius: 10px;
+	width: 170px;
+	height: 30px;
+	outline:none;
+	background-image:-webkit-radial-gradient(center, ellipse cover, rgba(114,215,224,1) 5%,rgba(108,150,208,1) 100%);
+}
+#private input[type='file']
+{background:none;}
+#private input, textarea{
+	background:#EEF;
+	}

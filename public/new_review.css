@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+form {
+	margin-top:0px;
+margin-left: 100px ;
+border:solid 2px #6C96D0;
+width: 550px;
+-webkit-border-radius:0px 20px 20px 20px;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#6FB2D7), to(#B6D4E4));
+float:left; 
+	}

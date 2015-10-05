@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#private {
+width: 780px;
+height:auto;
+margin-left: 15px;
+margin-top:5px;
+margin-right:-5px;
+padding:60px;
+padding-right:33px;
+margin-bottom: -5px;
+/*padding-left: 200px; /* Отступ слева от вкладок */
+float:left;
+background-color:#fff;
+border-left: solid 2px #6C96D0;
+}
+ul{
+
+	list-style-type:none;
+}
+#photo	li{
+			display:inline-block;
+			margin:5px;
+			border:solid 2px #6C96D0;
+			margin-left:0px;
+		}
+#avatar
+
+{width: 200px;
+height: auto;
+/*border: solid 4px #6C96D0;*/
+float:left;
+margin-top:55px;
+	}
+#avatar img {
+	border: solid 4px #6C96D0;
+	}
+
+	.question{
+display:block;
+font-weight:bold;
+color: #006;
+font-size: 16px;
+float:left;
+margin-bottom:24px;
+font-family:"Times New Roman", Times, serif;
+}
+#tabs{
+  overflow: hidden;
+  width: 100%;
+  margin-bottom:0px;
+  padding: 0;
+  list-style: none;
+ 
+}
+#bookmark
+{
+	float:left;
+	margin-left: 40px;
+	width:500px;
+	
+	}
+	table{
+		margin-top:20px;
+		}
+	td {
+		border-bottom: solid 2px #6C96D0;
+
+		}
+#content input[type='submit'] {
+	display:block;
+	float:left;
+background: url(../images/ok.png) 195px 0 no-repeat;
+border: none;
+outline: none;
+top: 5px;
+font-weight:bold;
+color: #006;
+font-size: 16px;
+font-weight:bold;
+font-family:"Times New Roman", Times, serif;
+width: 220px;
+height: 25px;
+padding:0px;
+
+}
+form a {
+	display:block;
+	float:left;
+	font-weight:bold;
+color: #006;
+font-size: 16px;
+font-weight:bold;
+font-family:"Times New Roman", Times, serif;
+margin-left:20px;
+	}
+#tabs li{
+  float: left;
+  margin: 0 .5em 0 0;
+}
+
+#tabs a{
+  position: relative;
+  background: #ddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9CBDE4), to(#fff));
+  background-image: -webkit-linear-gradient(top, #9CBDE4, #fff);
+  background-image: -moz-linear-gradient(top, #9CBDE4, #fff);
+  background-image: -ms-linear-gradient(top, #9CBDE4, #fff);
+  background-image: -o-linear-gradient(top, #9CBDE4, #fff);
+  background-image: linear-gradient(to bottom, #9CBDE4, #fff);  
+  padding: 10px 15px;
+  float: left;
+
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
+  -moz-box-shadow: 0 2px 2px rgba(0,0,0,.4);
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.4);
+  box-shadow: 0 2px 2px rgba(0,0,0,.4);
+}
+
+#tabs a:hover,
+#tabs a:hover::after,
+#tabs a:focus,
+#tabs a:focus::after{
+  background: #6FB2D7;
+}
+
+#tabs a:focus{
+  outline: 0;
+}
+
+#tabs a::after{
+  content:'';
+  position:absolute;
+  z-index: 1;
+  top: 0;
+  right: -.5em;  
+  bottom: 0;
+  
+  width: 1em;
+  background: 6FB2D7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9CBDE4), to(#fff));
+  background-image: -webkit-linear-gradient(top, #9CBDE4, #fff);
+  background-image: -moz-linear-gradient(top,  #9CBDE4, #fff);
+  background-image: -ms-linear-gradient(top, #9CBDE4, #fff);
+  background-image: -o-linear-gradient(top,  #9CBDE4, #fff);
+  background-image: linear-gradient(to bottom,  #9CBDE4, #fff);  
+  -moz-box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  -webkit-transform: skew(10deg);
+  -moz-transform: skew(10deg);
+  -ms-transform: skew(10deg);
+  -o-transform: skew(10deg);
+  transform: skew(10deg);
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;  
+}
+
+#tabs #current a,
+#tabs #current a::after{
+  background: #6FB2D7;
+  color: #fff;
+  z-index: 3;
+}
