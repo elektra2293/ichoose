@@ -89,7 +89,7 @@ if($_COOKIE['yourSity']==1 or $_COOKIE['yourSity']==2)
 or die(mysql_error()); 
 $qr_metros = mysql_fetch_array($qr_metro);
 echo "<p> Станция метро: ".$qr_metros['Name_Metro']."</p>";}
-$qr_street= mysql_query("select * from Street where ID_Street='".$companies['ID_Street']."'" , $connect_to_db )
+$qr_street= mysql_query("select * from street where ID_Street='".$companies['ID_Street']."'" , $connect_to_db )
 or die(mysql_error()); 
 $qr_streets = mysql_fetch_array($qr_street);
 echo "<p> Адрес: ".$qr_streets['Name_Street']."  ".$companies['house']."</p>";
