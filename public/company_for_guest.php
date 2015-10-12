@@ -84,7 +84,7 @@ $company = mysql_query("select * from company  WHERE ID_Company=$id_comp" , $con
     or die(mysql_error()); 
     $qr_metros = mysql_fetch_array($qr_metro);
     echo "<p> Станция метро: ".$qr_metros['Name_Metro']."</p>";}
-    $qr_street= mysql_query("select * from Street where ID_Street='".$companies['ID_Street']."'" , $connect_to_db )
+    $qr_street= mysql_query("select * from street where ID_Street='".$companies['ID_Street']."'" , $connect_to_db )
     or die(mysql_error()); 
     $qr_streets = mysql_fetch_array($qr_street);
     echo "<p> Адрес: ".$qr_streets['Name_Street']."  ".$companies['house']."</p>";
